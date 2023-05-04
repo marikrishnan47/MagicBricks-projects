@@ -1,0 +1,277 @@
+
+.search{
+    border-radius: 20px !important;
+}
+.css-7mt4h1-MuiInputBase-root .MuiInputBase-input {
+    width: 20ch !important;
+}
+.css-7mt4h1-MuiInputBase-root {
+    border-radius: 30px !important;
+    padding: 10px;
+    margin-right: 20px;
+    font-size: 22px !important;
+}
+.css-1orzy9s {
+    background-color: rgb(255 0 0 / 15%) !important;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+    background-color: #d8232a !important;
+}
+.css-1wuw8dw-MuiBreadcrumbs-separator {
+    display: none !important;
+   
+}
+
+.css-1avt9t1-MuiButtonBase-root-MuiChip-root {
+    margin-right: 10px !important;
+}
+.css-7mt4h1-MuiInputBase-root {
+  background-color: #fff;
+  color: #303030 !important;
+}
+
+.css-1avt9t1-MuiButtonBase-root-MuiChip-root {
+    background-color: #fff !important;
+    padding: 10px 0;
+    height: 60px !important;
+    border-radius: 50px !important;
+}
+.css-1avt9t1-MuiButtonBase-root-MuiChip-root .MuiChip-deleteIcon {
+    color: #d8232a !important;
+    font-size: 30px !important;
+}
+.css-6od3lo-MuiChip-label {
+    overflow: visible !important;
+    text-overflow: ellipsis;
+    padding: 0px 16px  !important;
+    font-size: 22px;
+    font-weight: 600;
+    white-space: nowrap;
+    
+}
+
+.css-hyum1k-MuiToolbar-root {
+height: 84px;
+width: 80% !important;
+margin: 0 auto;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+   
+}
+.col-12{
+    width: 100%;
+}
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    padding-bottom: 30px;
+    font-size: 42px;
+    font-weight: 400;
+}
+h2{
+    font-size: 22px;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #a7a5a5;
+}
+p{
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.row-color{
+   background-color: #fff;
+   padding-left: 10px;
+   box-shadow: 0 2px 5px #b3b3b3;
+   border-radius: 20px;
+  
+}
+
+.sale{
+    background-color: #e9e8e8;
+}
+
+.photo{
+    width:16.66%;
+    background-color: #fff;
+    padding: 30px 20px;
+    
+  
+}
+.col{
+    display: flex;
+    box-shadow: 0 0px 5px;
+    border-radius: 20px;
+    width: 100%;
+    overflow: hidden;
+    margin: 30px 0;
+}
+.photo p{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+img{
+    width: 100%;
+    overflow: hidden;
+  
+   
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+    border-radius: 10px !important;
+}
+.img{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.upteded{
+    position: absolute;
+    color: #fff;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+     padding: 0px 10px  ;
+    background-color: rgba(48,48,48,.7);
+    z-index: 6;
+}
+.pro-owner{
+    width:57%;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 1rem;
+     p{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 30px;
+       
+    }
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 2rem !important;
+    width: 3rem !important;
+    height: auto!important;
+    color: #a7a5a5 !important;
+}
+.icons{
+    font-size: 30px;
+}
+
+
+.owner-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+     a{
+        text-decoration:underline;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 74px;
+        padding-top: 10px;
+    }
+     p{
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 74px;
+        margin: 0;
+      }
+}
+.Icon-sec{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin-top: 20px;
+}
+
+
+.tools{
+   display: flex;
+   align-items: center;
+   padding: 0 20px ;
+  
+   .tools-ex{
+    border-right: #a7a5a5 solid 1px ;
+    border-left: #a7a5a5 solid 1px ;
+}
+.tools-con{
+    padding: 0 10px ;
+    padding-right: 30px;
+    p{
+        font-size: 24px  !important;
+    }
+     span{
+        font-size: 20px  !important;
+    }
+    
+}
+ p{   
+    margin: 0;
+}
+
+}
+.arrow-icon{
+    padding: 0 6px;
+    
+}
+
+.amount{
+    width: 25%;
+    text-align: center;
+    background-color: #f1f1f1;
+   padding-top: 5rem;
+   padding-bottom: 8rem;
+    h3 {
+    margin: 0;
+    font-size: 28px;
+  }
+   p{
+    font-size: 20px;
+}
+}
+.amount .btn{
+    padding: 10px 20px ;
+    background-color: #d8232a;
+    color: #fff;
+    border-radius: 25px;
+    margin: 10px 0;
+   font-size: 20px;
+}
+.amount .btn:hover{
+    background-color:#d8232a !important;
+}
+
+
+.am-icon{
+  font-size: 20px !important;
+  width: 1.5rem !important;
+}
+
+
+@media(max-width:570px){
+    .css-hyum1k-MuiToolbar-root {
+        height: 84px;
+        width: 80% !important;
+        margin: 0 auto;
+        }
+        .container{
+            margin: 0 auto;
+            width: 80%;
+           
+        }
+}
+@media (min-width: 570px ) and (max-width: 700px) {
+
+}
