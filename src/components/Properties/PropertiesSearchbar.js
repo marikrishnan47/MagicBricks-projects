@@ -1,6 +1,4 @@
-
-
-import * as React from 'react';
+import React from 'react'
 import { emphasize,styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -79,9 +77,11 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }));
 
-export default function SearchAppBar() {
+
+const PropertiesSearchbar = () => {
   return (
-    <Box sx={{display: 'flex' }}>
+    <div>
+         <Box sx={{display: 'flex' }}>
       <AppBar position="static">
         <Toolbar>
             
@@ -132,5 +132,8 @@ export default function SearchAppBar() {
         </Toolbar>
       </AppBar>
     </Box>
-  );
+</div>
+  )
 }
+
+export default PropertiesSearchbar
