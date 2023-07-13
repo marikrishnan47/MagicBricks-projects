@@ -35,6 +35,7 @@ const Properties = () => {
     dispatch(Home(value))
     navigate('/details')
    }
+   console.log(Details)
 
   return (
     <>
@@ -43,7 +44,7 @@ const Properties = () => {
         <div className='container'>
           <h1>2162 results | Owner Properties for Rent in Chennai</h1>
           <div className='row'>
-            {Details.filter(e=>params.id===e.Bhk &&((params.amount < e.house_price) && (params.amount2 < e.house_price))).map((value,index)=>{
+            {Details.filter(e=>params.id===e.Bhk && ((params.amount < e.housePrice) && (params.amount2 > e.housePrice))).map((value,index)=>{
               return <div className='col-12' key={index} onClick={()=>detailHouse(value)}>
                  <div className='properties'>
                    <div className='col-3'>

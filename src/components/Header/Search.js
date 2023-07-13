@@ -78,22 +78,22 @@ const Search = () => {
                                  <div className="dropdown">
                                         <select onChange={minAmountChange}>
                                             <option value="" selected disabled>Min</option>
-                                            <option  value={'5 Lac'}>5 Lac</option>
-                                            <option  value={'10 Lac'}>10 Lac</option>
-                                            <option  value={'20 Lac'}>20 Lac</option>
-                                            <option  value={'30 Lac'}>30 Lac</option> 
-                                            <option value={'40 Lac'}>40 Lac</option>
-                                            <option value={'50 Lac'}>50 Lac</option>
-                                            <option value={'60 Lac'}>60 Lac</option>
+                                            <option  value={5}>5 Lac</option>
+                                            <option  value={10}>10 Lac</option>
+                                            <option  value={20}>20 Lac</option>
+                                            <option  value={30}>30 Lac</option> 
+                                            <option value={40}>40 Lac</option>
+                                            <option value={50}>50 Lac</option>
+                                            <option value={60}>60 Lac</option>
                                         </select>
                                         <select onChange={maxAmountChange}>
                                             <option value="" selected disabled>Max</option>
-                                            <option  value={'10 Lac'}>10 Lac</option>
-                                            <option  value={'20 Lac'}>20 Lac</option>
-                                            <option  value={'30 Lac'}>30 Lac</option> 
-                                            <option value={'40 Lac'}>40 Lac</option>
-                                            <option value={'50 Lac'}>50 Lac</option>
-                                            <option value={'60 Lac'}>60 Lac</option>
+                                            <option  value={10}>10 Lac</option>
+                                            <option  value={20}>20 Lac</option>
+                                            <option  value={30}>30 Lac</option> 
+                                            <option value={40}>40 Lac</option>
+                                            <option value={50}>50 Lac</option>
+                                            <option value={60}>60 Lac</option>
                                         </select>
 
                                         </div>
